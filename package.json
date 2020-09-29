@@ -1,0 +1,22 @@
+{
+  "name": "cliff",
+  "version": "0.0.1",
+  "description": "Command Line Interface Flexible Formatter",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyzi/cliff.git"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Eyzi <contact@eyzi.xyz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyzi/cliff/issues"
+  },
+  "homepage": "https://github.com/eyzi/cliff#readme"
+}
