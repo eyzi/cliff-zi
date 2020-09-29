@@ -6,7 +6,7 @@ Command Line Interface Flexible Formatter by Eyzi
 
 ## Usage
 ```
-import Cliff from '../src/cliff.js'
+import Cliff from 'cliff-zi'
 
 // Initialize Cliff object
 let cliff_object = new Cliff({
