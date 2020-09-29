@@ -1,14 +1,15 @@
 {
-  "name": "cliff",
+  "name": "cliff-zi",
   "version": "0.0.1",
-  "description": "Command Line Interface Flexible Formatter",
-  "main": "src/main.js",
+  "description": "Command Line Interface Flexible Formatter by Eyzi",
+  "main": "src/cliff.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/main"
+    "test": "node test/main"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eyzi/cliff.git"
+    "url": "git+https://github.com/eyzi/cliff-zi.git"
   },
   "keywords": [
     "CLI"
@@ -16,7 +17,10 @@
   "author": "Eyzi <contact@eyzi.xyz>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eyzi/cliff/issues"
+    "url": "https://github.com/eyzi/cliff-zi/issues"
   },
-  "homepage": "https://github.com/eyzi/cliff#readme"
+  "homepage": "https://github.com/eyzi/cliff-zi#readme",
+  "dependencies": {
+    "uuid": "^8.3.0"
+  }
 }
