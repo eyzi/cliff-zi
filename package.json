@@ -1,11 +1,14 @@
 {
-  "name": "cliff-zi",
+  "name": "@eyzi/cliff-zi",
   "version": "0.0.5",
   "description": "Command Line Interface Flexible Formatter by Eyzi",
   "main": "src/cliff.js",
   "type": "module",
   "scripts": {
     "test": "node test/main"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
